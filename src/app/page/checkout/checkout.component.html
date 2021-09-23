@@ -1,0 +1,87 @@
+    <!--====== BREADCRUMB SECTION START ======-->
+    <section class="breadcrumb-section" style="background-image: url(assets/img/breadcrumb.jpg);">
+      <div class="container">
+        <div class="breadcrumb-text">
+          <h1>CheckOut</h1>
+          <p>Your Partner for Medical Cannabis</p>
+        </div>
+        <ul class="breadcrumb-nav">
+          <li><a href="#">Home</a></li>
+          <li>Checkout</li>
+        </ul>
+        <span class="btg-text"></span>
+      </div>
+      <div class="breadcrumb-shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z">
+          </path>
+        </svg>
+      </div>
+    </section>
+    <!--====== BREADCRUMB SECTION END ======-->
+
+    <section class="cart-section pt-120 pb-120">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 mb-5">
+            <div class="cw-product-promo">
+              <div class="cw-title">
+                <h5>Billing Details</h5>
+              </div>
+              <form *ngIf="billingForm" [formGroup]="billingForm">
+                <!-- form-group  -->
+                <div class="mb-0">
+                  <label for="couponCode">Enter Your Name</label>
+                  <input type="text" id="quantity1" formControlName="name" name="name" class=" form-control input-number" >
+                  <label for="couponCode">Enter Your Email</label>
+                  <input type="text" id="quantity1" formControlName="email" name="email" class=" form-control input-number" >
+                  <label for="couponCode">Enter Your Address</label>
+                  <input type="text" id="quantity1" formControlName="address" name="address" class=" form-control input-number" >
+                  <label for="couponCode">Enter Your Phone Number</label>
+                  <input type="text" id="quantity1" formControlName="phone" name="phone" class=" form-control input-number" >
+                </div>
+                <!-- <button type="button" (click)="" class="main-btn btn-filled mt-4">Apply</button> -->
+              </form>
+            </div>
+          </div>
+          <!-- ==== order details ==== -->
+          <div class="col-lg-4 mb-5">
+            <div class="cw-product-promo">
+              <div class="cw-title">
+                <h5>Order Details</h5>
+              </div>
+              <div class="">
+                <div class="cw-product-promo">
+                  <table class="table cw-table-borderless">
+                    <tbody>
+                      <tr>
+                        <td> <b>Subtotal</b> </td>
+                        <td class="text-right">$ {{order.totalAmount}}</td>
+                        <!-- <td class="text-right">$ {{total}}</td> -->
+                      </tr>
+                      <tr>
+                        <td> <b>Shipping</b> </td>
+                        <td class="text-right">$ {{order.shipping}}</td>
+                        <!-- <td class="text-right">$ {{shipping}}</td> -->
+                      </tr>
+                      <tr>
+                        <td> <b>Total</b> </td>
+                        <td class="text-right">$ {{order.totalAmount+order.shipping}}</td>
+                        <!-- <td class="text-right">$ {{total+shipping}}</td> -->
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- (click)="placeOrder()" -->
+                  <!-- <button type="button" (click)="placeOrder()" class="main-btn btn-filled w-100">Proceed to Checkout</button> -->
+                </div>
+              </div>
+            </div>
+            <button type="button" (click)="placeOrder(this.billingForm)" class="main-btn btn-filled w-100">Place Order</button>
+          </div>
+
+        </div>
+
+
+        </div>
+    </section>

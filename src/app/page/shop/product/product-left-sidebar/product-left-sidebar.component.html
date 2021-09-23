@@ -1,0 +1,63 @@
+<div class="sidebar">
+  <!-- Search Widget -->
+  <div class="widget search-widget mb-40">
+    <h5 class="widget-title">Search</h5>
+    <form #search="ngForm" (ngSubmit)="searchFormSubmit(searchFeild.keyword)">
+      <input
+        type="text"
+        name="keyword"
+        placeholder="Search your keyword..."
+        [(ngModel)]="searchFeild.keyword"
+        #keyword="ngModel"
+        (ngModelChange)="searchFormSubmit(searchFeild.keyword)"
+      />
+
+      <!-- {{ search | json }} -->
+      <!-- <input type="text" placeholder="Search your keyword..." #search /> -->
+      <!-- <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or name or country"> -->
+      <button type="submit"><i class="far fa-search"></i></button>
+    </form>
+  </div>
+  <!-- Categories Widget -->
+  <div class="widget categories-widget mb-40">
+    <h5 class="widget-title">Recent Products</h5>
+    <ul>
+      <li>
+        <a href="#">Oil Products<span>26</span></a>
+      </li>
+      <li>
+        <a href="#">Hemp Tablets<span>26</span></a>
+      </li>
+      <li>
+        <a href="#">Raw Weedi Jars<span>26</span></a>
+      </li>
+      <li>
+        <a href="#">Wild Kush<span>26</span></a>
+      </li>
+      <li>
+        <a href="#">Eatebles<span>26</span></a>
+      </li>
+    </ul>
+    <div class="view-more-sec text-center">
+      <a href="#" class="main-btn btn-filled mt-4">View more +</a>
+    </div>
+  </div>
+  <!-- Popular Tags Widget -->
+  <!-- <div class="widget popular-tag-widget mb-40">
+    <h5 class="widget-title">Popular Tags</h5>
+    <ul>
+      <li><a href="#">Popular</a></li>
+      <li><a href="#">Medical</a></li>
+      <li><a href="#">Cannabis</a></li>
+      <li><a href="#">Hemp</a></li>
+      <li><a href="#">Weefly</a></li>
+      <li><a href="#">Oil</a></li>
+      <li><a href="#">Free</a></li>
+      <li><a href="#">Plant</a></li>
+      <li><a href="#">Bong</a></li>
+      <li><a href="#">Smoking</a></li>
+      <li><a href="#">Pipes</a></li>
+      <li><a href="#">Pipet</a></li>
+    </ul>
+  </div> -->
+</div>

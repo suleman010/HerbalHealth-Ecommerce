@@ -1,0 +1,29 @@
+<div class="product-grid">
+  <div class="product-item-top indica">
+    <div class="product-type">- Indica -</div>
+    <div class="strain-type"></div>
+  </div>
+  <div class="product-image4">
+    <a [queryParams]="{productId:product.id}" [routerLink]="['/product-detail']">
+    <img class="pic-1" src={{product.productImage}} alt="img">
+    </a>
+    <ul class="social">
+      <li><a href="#" data-toggle="modal" data-target="#quickViewSnap" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+      <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+      <li><a href="#" data-tip="Add to Favourite"><i class="fas fa-heart"></i></a></li>
+    </ul>
+  </div>
+  <div class="product-content">
+    <h4 class="title"><a [routerLink]="['/product-detail']" [queryParams]="{productId:product.id}" >Bd</a></h4>
+    <p>{{product.productName}}</p>
+    <div class="price" [hidden]="product.productDiscountAvailability">
+      ${{product.realTimePrice}}
+    </div>
+    <!-- ==== Dicounted price ==== -->
+    <div class="price" [hidden]="!product.productDiscountAvailability">
+      ${{product.realTimePrice}}
+      <span>{{product.productPrice}}</span>
+    </div>
+    <a class="add-to-cart" (click)="addToCart()">ADD TO CART</a>
+  </div>
+</div>
