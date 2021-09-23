@@ -1,0 +1,445 @@
+{
+  "clientInfo": {
+    "clientName": "Herbal Health",
+    "clientLogo": "url",
+    "phoneNumber": [
+      923062140286,
+      92123456789
+    ],
+    "emailAddress": [
+      "herbalheath1@maildrop.cc",
+      "herbalhealth2@maildrop.cc"
+    ],
+    "officeAddress": {
+      "address": "9/A, Cirikon City hall Tower",
+      "city": "New York",
+      "country": "USA"
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "productName": "nothing",
+      "productNameCode": "CO",
+      "productNameType": "Type",
+      "productPrice": 10,
+      "productDiscountAvailability": false,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      }
+    },
+    {
+      "id": 2,
+      "productName": "CBD OIL",
+      "productNameCode": "CO",
+      "productNameType": "Type",
+      "productPrice": 12,
+      "productDiscountAvailability": false,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      }
+    },
+    {
+      "id": 3,
+      "productName": "CBD OIL",
+      "productNameCode": "CO",
+      "productNameType": "Type",
+      "productPrice": 11,
+      "productDiscountAvailability": true,
+      "productDiscountPrice": 8,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      }
+    },
+    {
+      "id": 4,
+      "productName": "CBD OIL",
+      "productNameCode": "CO",
+      "productNameType": "Type",
+      "productPrice": 500,
+      "productDiscountAvailability": true,
+      "productDiscountPrice": 20,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      }
+    },
+    {
+      "id": 5,
+      "productName": "CBD-H OIL",
+      "productNameCode": "CO",
+      "productNameType": "type",
+      "productPrice": 100,
+      "productDiscountAvailability": true,
+      "productDiscountPrice": 12,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      }
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "productName": "nothing",
+      "productNameCode": "CO",
+      "productNameType": "Type",
+      "productPrice": 10,
+      "productDiscountAvailability": false,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      },
+      "realTimePrice": 10,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productName": "cbd oil",
+      "productNameCode": "CO",
+      "productNameType": "Type",
+      "productPrice": 12,
+      "productDiscountAvailability": false,
+      "productImage": "assets/img/products/product2.png",
+      "productCartImage": "img/cart/1.jpg",
+      "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "productSpecification": {
+        "THC": "22%",
+        "TYPE": "Sativa",
+        "CBD": "3%",
+        "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+      },
+      "realTimePrice": 12,
+      "quantity": 1
+    }
+  ],
+  "order": [
+    {
+      "id": 200
+    },
+    {
+      "products": [
+        {
+          "id": 1,
+          "productName": "nothing",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 10,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 10,
+          "quantity": 4
+        }
+      ],
+      "totalAmount": 40,
+      "shipping": 3,
+      "userDetail": {
+        "name": "umer baig",
+        "email": "umerbaig1125@gmail.com",
+        "phone": "34234234",
+        "address": "malir cant karachi",
+        "country": "",
+        "city": ""
+      },
+      "id": 201
+    },
+    {
+      "products": [
+        {
+          "id": 1,
+          "productName": "nothing",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 10,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 10,
+          "quantity": 6
+        },
+        {
+          "id": 2,
+          "productName": "cbd oil",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 12,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 12,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "productName": "cbd-h oil",
+          "productNameCode": "CO",
+          "productNameType": "type",
+          "productPrice": 100,
+          "productDiscountAvailability": true,
+          "productDiscountPrice": 12,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 12,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 84,
+      "shipping": 3,
+      "userDetail": {
+        "name": "umer baig",
+        "email": "umerbaig1125@gmail.com",
+        "phone": "59251516",
+        "address": "malir cant karachi",
+        "country": "",
+        "city": ""
+      },
+      "id": 202
+    },
+    {
+      "products": [
+        {
+          "id": 1,
+          "productName": "nothing",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 10,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 10,
+          "quantity": 7
+        },
+        {
+          "id": 2,
+          "productName": "cbd oil",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 12,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 12,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "productName": "cbd oil",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 11,
+          "productDiscountAvailability": true,
+          "productDiscountPrice": 8,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 8,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "productName": "cbd oil",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 500,
+          "productDiscountAvailability": true,
+          "productDiscountPrice": 20,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 20,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "productName": "cbd-h oil",
+          "productNameCode": "CO",
+          "productNameType": "type",
+          "productPrice": 100,
+          "productDiscountAvailability": true,
+          "productDiscountPrice": 12,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 12,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 122,
+      "shipping": 3,
+      "userDetail": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "country": "",
+        "city": ""
+      },
+      "id": 203
+    },
+    {
+      "products": [
+        {
+          "id": 1,
+          "productName": "nothing",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 10,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 10,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "productName": "cbd oil",
+          "productNameCode": "CO",
+          "productNameType": "Type",
+          "productPrice": 12,
+          "productDiscountAvailability": false,
+          "productImage": "assets/img/products/product2.png",
+          "productCartImage": "img/cart/1.jpg",
+          "productDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productShortDiscription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "productSpecification": {
+            "THC": "22%",
+            "TYPE": "Sativa",
+            "CBD": "3%",
+            "WEIGHT": "1 g, 1/2, 1/4, 1/8, joint, OZ"
+          },
+          "realTimePrice": 12,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 22,
+      "shipping": 3,
+      "userDetail": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "country": "",
+        "city": ""
+      },
+      "id": 204
+    }
+  ]
+}

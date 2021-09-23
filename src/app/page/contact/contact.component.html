@@ -1,0 +1,72 @@
+<!--====== BREADCRUMB SECTION START ======-->
+    <section class="breadcrumb-section" style="background-image: url(assets/img/breadcrumb.jpg);">
+        <div class="container">
+            <div class="breadcrumb-text">
+                <h1>contact us</h1>
+                <p>Your Partner for Medical Cannabis</p>
+            </div>
+            <ul class="breadcrumb-nav">
+                <li><a href="#">Home</a></li>
+                <li>contact us</li>
+            </ul>
+            <span class="btg-text"></span>
+        </div>
+        <div class="breadcrumb-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z">
+                </path>
+            </svg>
+        </div>
+    </section>
+    <!--====== BREADCRUMB SECTION END ======-->
+    <!--====== CONTACT SECTION START ======-->
+    <section class="contact-section with-map-bg pt-120 pb-120">
+        <div class="container">
+            <div class="contact-form-wrapper">
+                <div class="row no-gutters align-items-center align-items-lg-start justify-content-center">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="contact-info-list">
+                            <div class="info-box">
+                                <div class="icon">
+                                    <i class="pe-7s-home"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Office Address</h4>
+                                    <p>{{officeAddress.address}} <br> {{officeAddress.city}}, {{officeAddress.country}}</p>
+                                </div>
+                            </div>
+                            <div class="info-box">
+                                <div class="icon">
+                                    <i class="pe-7s-call"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Phone Number</h4>
+                                    <p *ngFor="let list of phoneNumber">{{list}}<br></p>
+                                </div>
+                            </div>
+                            <div class="info-box">
+                                <div class="icon">
+                                    <i class="pe-7s-comment"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Email address</h4>
+                                    <p *ngFor="let list of emailAddress">{{list}}<br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <div class="contact-form">
+                        <app-contact-form></app-contact-form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d180508.00515044518!2d90.61153473006058!3d23.544910075716373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1592212793858!5m2!1sen!2sbd">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <!--====== CONTACT SECTION END ======-->

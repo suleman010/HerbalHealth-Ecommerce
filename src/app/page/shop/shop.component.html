@@ -1,0 +1,175 @@
+    <!--====== BREADCRUMB SECTION START ======-->
+    <section class="breadcrumb-section" style="background-image: url(assets/img/breadcrumb.jpg);">
+      <div class="container">
+        <div class="breadcrumb-text">
+          <h1>Shop Left Sidebar</h1>
+          <p>Your Partner for Medical Cannabis</p>
+        </div>
+        <ul class="breadcrumb-nav">
+          <li><a href="#">Home</a></li>
+          <li>Shop Left Sidebar</li>
+        </ul>
+        <span class="btg-text">cannaweed</span>
+      </div>
+      <div class="breadcrumb-shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z">
+          </path>
+        </svg>
+      </div>
+    </section>
+    <!--====== BREADCRUMB SECTION END ======-->
+    <!--====== SHOP SECTION START ======-->
+    <section class="blog-section shop-sidebar-section pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Blog Sidebar -->
+          <div class="col-lg-3">
+            <app-product-left-sidebar (emitter)="sendSearchKeyword($event)"></app-product-left-sidebar>
+          </div>
+          <!-- Blog Loop Start -->
+          <div class="col-lg-9">
+            <div class="cw-shop-top-filter">
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <form>
+                    <div class="cw-sort-select_filter">
+                      <select name="sort-by" [(ngModel)]="sortBy">
+                        <option value="">Sort By</option>
+                        <option value="priceHighToLow">Price High To Low</option>
+                        <option value="priceLowToHigh">Price Low To High</option>
+                        <option value="a to z">A to Z</option>
+                        <option value="latest">Latest</option>
+                      </select>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="cw-shop-view">
+                    <p>Showing {{numberOfProductsListed}} results</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ===Product List Start=== -->
+            <div class="row">
+              <div class="col">
+                <app-product-list [keyword]="keyword" [sortBy]="sortBy" (numberOfProductsListedEmitter)="getNumberOfProductsListed($event)"></app-product-list>
+              </div>
+            </div>
+            <!-- ===Product List End=== -->
+            <!-- <div class="row pt-4">
+              <div class="col-lg-12">
+                <div class="cw-featured-box-bg-01 mb-0">
+                  <div class="cw-featured-box-inner">
+                    <a href="#">
+                      <h5 class="title">New <span>Products</span></h5>
+                      <p>From <span>$250.00</span></p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- ==== Product Example ==== -->
+            <!-- <div class="row pt-4">
+              <div class="col-lg-4 col-md-6">
+                <div class="product-grid">
+                  <div class="product-item-top indica">
+                    <div class="product-type">- Indica -</div>
+                    <div class="strain-type"></div>
+                  </div>
+                  <div class="product-image4">
+                    <a href="shop-detail.html">
+                      <img class="pic-1" src="assets/img/products/product2.png" alt="img">
+                    </a>
+                    <ul class="social">
+                      <li><a href="#" data-toggle="modal" data-target="#quickViewSnap" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="#" data-tip="Add to Favourite"><i class="fas fa-heart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="product-content">
+                    <h4 class="title"><a href="shop-detail.html">Bd</a></h4>
+                    <p>Blue Dream</p>
+                    <div class="price">
+                      $14.40
+                      <span>$16.00</span>
+                    </div>
+                    <a class="add-to-cart" href="#">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-grid">
+                  <div class="product-item-top hybrid">
+                    <div class="product-type">- Hybrid -</div>
+                    <div class="strain-type"></div>
+                  </div>
+                  <div class="product-image4">
+                    <a href="shop-detail.html">
+                      <img class="pic-1" src="assets/img/products/product3.png" alt="img">
+                    </a>
+                    <ul class="social">
+                      <li><a href="#" data-toggle="modal" data-target="#quickViewSnap" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="#" data-tip="Add to Favourite"><i class="fas fa-heart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="product-content">
+                    <h4 class="title"><a href="shop-detail.html">Sd</a></h4>
+                    <p>Slick Doom</p>
+                    <div class="price">
+                      $14.40
+                      <span>$16.00</span>
+                    </div>
+                    <a class="add-to-cart" href="#">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-grid">
+                  <div class="product-item-top sativa">
+                    <div class="product-type">- Sativa -</div>
+                    <div class="strain-type"></div>
+                  </div>
+                  <div class="product-image4">
+                    <a href="shop-detail.html">
+                      <img class="pic-1" src="assets/img/products/product4.png" alt="img">
+                    </a>
+                    <ul class="social">
+                      <li><a href="#" data-toggle="modal" data-target="#quickViewSnap" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="#" data-tip="Add to Favourite"><i class="fas fa-heart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="product-content">
+                    <h4 class="title"><a href="shop-detail.html">Ck</a></h4>
+                    <p>Cool Ket</p>
+                    <div class="price">
+                      $14.40
+                      <span>$16.00</span>
+                    </div>
+                    <a class="add-to-cart" href="#">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- ==== Product Example ==== -->
+            <!-- ==== Pagination Start ==== -->
+            <!-- <div class="pagination-wrap pt-5">
+              <ul>
+                <li><a href="#"><i class="far fa-angle-double-left"></i></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#"><i class="far fa-angle-double-right"></i></a></li>
+              </ul>
+            </div> -->
+            <!-- ==== Pagination Start ==== -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== SHOP SECTION END ======-->
